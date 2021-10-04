@@ -1,6 +1,7 @@
 class Solution {
     public boolean canJump(int[] nums) {
-        
+         // This is forward solution looping from 0 to len
+        /*
         int index_value = 0;
         
         for(int i =0 ; i < nums.length ; i++){
@@ -11,9 +12,22 @@ class Solution {
                 
         }
                 return true;
+        */
         
-    }
-}
+        int lastPosition = nums.length - 1;
+        for(int i = nums.length - 1 ; i >= 0 ; i--){
+            if(nums[i] + i >= lastPosition){
+                lastPosition = i;
+            }
+        }
+        
+        return lastPosition == 0;
+        
+
+
+      
+
+
 
 /*
 i= 0;
@@ -42,3 +56,5 @@ return true;
 
 
 */
+    }
+}
