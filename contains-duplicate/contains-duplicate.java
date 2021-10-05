@@ -21,7 +21,7 @@ class Solution {
         
         
         //Iterative solution
-        // Faster solution
+        //Faster solution
         
         Arrays.sort(nums);
         
