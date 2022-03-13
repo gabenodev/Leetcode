@@ -15,9 +15,7 @@ class Solution {
                     words++;
                 }
             }
-            if(max < words) {
-                max = words;
-            }
+            max = Math.max(max,words);
         }
         return max;
         
