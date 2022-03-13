@@ -3,13 +3,13 @@ class Solution {
         
         char space = ' ';
         int max = -1;
-         int words = 1;
+         
         if(sentences == null){
             return 0;
         }
         
         for(int i = 0 ; i < sentences.length; i++){
-           
+           int words = 1;
             for(int j = 0 ; j < sentences[i].length(); j++){
                 if(sentences[i].charAt(j) == space){
                     words++;
@@ -18,7 +18,6 @@ class Solution {
             if(max < words) {
                 max = words;
             }
-              words = 1;
         }
         return max;
         
