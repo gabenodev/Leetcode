@@ -6,6 +6,25 @@ var decompressRLElist = function(nums) {
     
     let res = []
     
+    var i = 0
+    
+    while(i != nums.length){
+        
+        for(let j = 0 ; j < nums[i] ; j++){
+        res.push(nums[i+1])
+            }
+        
+        i+=2
+    }
+    
+    return res
+    
+    
+    
+    /*
+    A bit slow because of using 2 indexes
+    let res = []
+    
     for(let i = 0 ; i < nums.length ; i+=2){
         for(let j = 0 ; j < nums[i] ; j ++){
             res.push(nums[i+1])
@@ -13,5 +32,6 @@ var decompressRLElist = function(nums) {
     }
     
     return res
+    */
     
 };
