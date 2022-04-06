@@ -4,6 +4,11 @@ class Solution {
             
         for(int i = 0 ; i < s.length(); i++){
             newS[indices[i]] = s.charAt(i);
+            // Step 1
+            // newS[indices[0]] = 'c'
+            // newS[4] = 'c'
+            
+            
         }
         
         return String.valueOf(newS);
