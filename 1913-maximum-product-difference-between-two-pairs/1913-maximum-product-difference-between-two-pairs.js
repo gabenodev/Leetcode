@@ -4,6 +4,8 @@
  */
 var maxProductDifference = function(nums) {
     
+    // O(n) solution
+    // O (nlogn) solution can be found in java code
     let min = 1e4
     let max = 0
     let prevMin = min
