@@ -6,7 +6,7 @@ class Solution {
         
         for(int i = 0; i < gain.length; i ++){
             alt += gain[i];
-             max = Math.max(alt,max);
+             if(alt > max) max = alt;
         }
         
         return max;
