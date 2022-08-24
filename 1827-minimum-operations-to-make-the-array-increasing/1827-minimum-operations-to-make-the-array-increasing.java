@@ -12,3 +12,21 @@ class Solution {
         return count;
     }
 }
+
+
+/*
+ i = 1
+ 
+ nums[1] <= nums[0]
+ true
+ diff = 1
+ nums[1] = 2
+ 
+ i = 2 
+ 
+ nums[2] <= nums[1]
+ true
+ diff = 2
+ nums[2] = 3
+ 
+*/
