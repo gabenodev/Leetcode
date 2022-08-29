@@ -1,6 +1,41 @@
 class Solution {
     public List<List<Integer>> groupThePeople(int[] groupSizes) {
         
+        
+        List<List<Integer>> finalList = new ArrayList<>();
+        int maxSize = 0;
+        
+        // Creating the bucket
+        for(int i = 0 ; i < groupSizes.length; i ++){
+            maxSize = Math.max(maxSize, groupSizes[i]);}
+            List<Integer> bucket[] = new List[maxSize + 1];
+        
+        
+        for(int i = 0 ; i < groupSizes.length; i++){
+            int currMax = groupSizes[i];
+            if(bucket[currMax] == null){
+                bucket[currMax] = new ArrayList<>();
+            }
+            bucket[currMax].add(i);
+        
+        
+        if(bucket[currMax].size() == currMax){
+            finalList.add(bucket[currMax]);
+            bucket[currMax] = null;
+        }
+        }
+        
+        return finalList;
+        
+        
+        
+        
+        
+        
+        
+        
+        /* Using HashMap
+        
         List<List<Integer>> finalList = new ArrayList<List<Integer>>();
         HashMap<Integer, List<Integer>> map = new HashMap();
         
@@ -20,7 +55,7 @@ class Solution {
         
        
         return finalList;
-        
+        */
     }
 }
 
