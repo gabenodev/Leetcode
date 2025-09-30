@@ -2,7 +2,7 @@
 // 1st solution -> (intuitive for me) recursion -> cleaner code but not optimal on big arrays
 // 2nd solution -> while-> we do it in one operation instead of recalling the function
 
-
+/*
 function triangularSum(nums: number[]): number {
     if (nums.length == 1) {
         return nums[nums.length-1];
@@ -12,10 +12,8 @@ function triangularSum(nums: number[]): number {
         newNums[i] = ( nums[i] + nums[i+1] ) % 10;
     }
     return triangularSum(newNums)
-};
+}; */
  
-
-/* 
  function triangularSum(nums: number[]): number {
 
     if(nums.length == 1){
@@ -29,4 +27,4 @@ function triangularSum(nums: number[]): number {
         nums.pop();
     }
     return nums[0];
- }*/
+ }
