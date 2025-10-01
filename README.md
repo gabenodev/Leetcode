@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0166-fraction-to-recurring-decimal](https://github.com/gabenodev/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
+| [1642-water-bottles](https://github.com/gabenodev/Leetcode/tree/master/1642-water-bottles) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/gabenodev/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 ## String
 |  |
@@ -23,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [1642-water-bottles](https://github.com/gabenodev/Leetcode/tree/master/1642-water-bottles) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/gabenodev/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 ## Combinatorics
 |  |
