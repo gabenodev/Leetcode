@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0166-fraction-to-recurring-decimal](https://github.com/gabenodev/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
+| [1018-largest-perimeter-triangle](https://github.com/gabenodev/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1642-water-bottles](https://github.com/gabenodev/Leetcode/tree/master/1642-water-bottles) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/gabenodev/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 ## String
@@ -20,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [1018-largest-perimeter-triangle](https://github.com/gabenodev/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/gabenodev/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 ## Simulation
 |  |
@@ -30,4 +32,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2324-find-triangular-sum-of-an-array](https://github.com/gabenodev/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
+## Greedy
+|  |
+| ------- |
+| [1018-largest-perimeter-triangle](https://github.com/gabenodev/Leetcode/tree/master/1018-largest-perimeter-triangle) |
+## Sorting
+|  |
+| ------- |
+| [1018-largest-perimeter-triangle](https://github.com/gabenodev/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 <!---LeetCode Topics End-->
