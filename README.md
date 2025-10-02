@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1018-largest-perimeter-triangle](https://github.com/gabenodev/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1642-water-bottles](https://github.com/gabenodev/Leetcode/tree/master/1642-water-bottles) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/gabenodev/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
+| [3336-water-bottles-ii](https://github.com/gabenodev/Leetcode/tree/master/3336-water-bottles-ii) |
 ## String
 |  |
 | ------- |
@@ -28,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1642-water-bottles](https://github.com/gabenodev/Leetcode/tree/master/1642-water-bottles) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/gabenodev/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
+| [3336-water-bottles-ii](https://github.com/gabenodev/Leetcode/tree/master/3336-water-bottles-ii) |
 ## Combinatorics
 |  |
 | ------- |
